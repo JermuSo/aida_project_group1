@@ -7,12 +7,12 @@ jos osallistutte suomenkieliseen toteutukseen ja kaikki jäsenet ovat suomenkiel
 
 ## Project Members and Topic
 
-- Member 1
-- Member 2
-- Member 3
-- Member 4
+- Jere Soininen
+- Pekka Pöyhönen
+- Sara Koskinen
+- Valtteri Pohto
 
-Write a short description about the topic you have chosen for your project group.
+Topic 1: Cars Dataset
 
 ## Project Phases
 
