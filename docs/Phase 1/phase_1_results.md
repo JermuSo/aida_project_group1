@@ -10,12 +10,11 @@
 AI / DA -Projekti -kurssin työnä suunniteltiin ja toteutettiin AI / DA -moduulin aihealueeseen liittyvää data-analyysi projekti. Projektityössä on tarkoituksena analysoida dataa liittyen käytettyjen autojen myyntiä ja tuottaa asiakkaalle sen avulla lisäarvoa.
 
 ## 1.	Tausta ja lähtökohdat  ![Tilanne](tilanne.png)
+
 ### 1.1.	TILANNE 
 Projektissa autokauppaketju on antanut toimeksiannon data-analyysistä. Tavoitteena on kehittää asiakkaan liiketoimintaa ja parantaa kilpailukykyä. Käytössä on suuri määrä dataa, jossa on monenlaisia tietoja, kuten autojen malli-, hinta- ja kokotiedot. Kattava otanta mahdollistaa syvällisen analyysin ja mallintamisen kone- tai syväoppimisen malleissa. Dataa on kuitenkin tutkittava, jaoteltava, korjattava ja jatkojalostettava, jotta sitä voidaan hyödyntää analysoinnissa ja mallintamisessa.
 
 ### 1.2.	ASIAKAS
-Kuka on asiakas ja ketkä muut hyötyvät saaduista tuloksista? - kuluttajat/asiakkaat
-Millaisiin kysymyksiin liiketoiminta-alueella etsit vastauksia
 
 Asiakas on Yhdysvalloissa toimiva autokauppaketju, joka keskittyy käytettyjen autojen vähittäismyyntiin Yhdysvaltojen markkinoilla. Asiakaskunta koostuu pääasiassa kotitalouksista, jotka etsivät kustannustehokkaita kuljetusvaihtoehtoja eri elämänvaiheisiin. Liiketoiminnassa korostuu asiakaslähtöinen lähestymistapa, jossa pyritään tarjoamaan kestäviä, edullisia ja laadukkaita ajoneuvoja jokaisen asiakkaan tarpeita vastaamaan.
 
@@ -23,6 +22,7 @@ Yrityksen ydintoiminta keskittyy käytettyjen autojen hankintaan, varastointiin,
 Yritys kertoo, että keskeisinä liiketoimintahaasteina ovat varastonhallinta ja hintastrategia. Yrityksellä on suuret varastokustannukset ja tehokkaalla varaston kierrolla olisi positiivisia vaikutuksia liiketoiminnan kannattavuudelle. Nopeat myynnit ovat ensiarvoisen tärkeitä, jotta ajoneuvot eivät jää varastoon niiden arvon laskiessa. Käytettyjen autojen hinnat vaihtelevat suuresti riippuen esimerkiksi ajoneuvotyypin, iän, ajokilometrien, merkin ja lisäominaisuuksien mukaan. Oikean hinnan määritteleminen on haasteellista ja aikaa vievää, johon toivotaan ratkaisua data-analytiikan keinoin. 
 
 ## 2.	TAVOITTEET ![Tavoite](tavoite.png)
+
 ### 2.1.	Data-analyysin ja mallintamisen tavoitteet
 
 -	Luoda selkeä kuva käytettävästä datasta
@@ -36,6 +36,7 @@ Yritys kertoo, että keskeisinä liiketoimintahaasteina ovat varastonhallinta ja
 -	Luodaan luokittelumalli luokittelemaan autot nopeasti kaupaksi meneviin ja ei nopeasti kaupattaviin
 
 ### 2.3.	Projektin tavoitteet
+
 Projektin tavoitteena on tuottaa asiakkaalle Data-analyysin avulla lisää tietämystä heidän liiketoimintaansa liittyen, tehostaen autojen myyntiä. Projektissa luodaan asiakkaalle selkeä kuva siitä, mikä vaikuttaa autojen myyntihintaan ja siihen, kuinka nopeasti auto kaupataan. Data-analyysistä pyritään löytämään myös muita tekijöitä, jotka vaikuttavat autokauppaketjun kannattavuuteen. Projektin tavoitteet täytyy suhteuttaa käytettävissä olevaan aikaan.
 
 -	Data-analyysin ja mallintamisen vaiheiden jälkeen suunnitellaan ja toteutetaan käyttöönotto, seuranta ja huolto
