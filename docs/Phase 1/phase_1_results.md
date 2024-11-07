@@ -74,7 +74,6 @@ Project starts the 2024-10-28
 
 ## 5.   PROJEKTIN VAIHEET ![Vaiheet](vaiheet.png)
 
-
 - [Vaihe 2](https://gitlab.labranet.jamk.fi/AC7766/aida-projekti-syksy-2024-ryhma-1/-/blob/main/docs/Phase%202/phase_2_results.ipynb?ref_type=heads) - Datan ymmärrys
 
 - [Vaihe 3](https://gitlab.labranet.jamk.fi/AC7766/aida-projekti-syksy-2024-ryhma-1/-/blob/main/docs/Phase%203/phase_3_results.ipynb?ref_type=heads) - Esikäsittely
@@ -83,7 +82,7 @@ Project starts the 2024-10-28
 
 - [Vaihe 5](https://gitlab.labranet.jamk.fi/AC7766/aida-projekti-syksy-2024-ryhma-1/-/blob/main/docs/Phase%205/phase_5_results.ipynb?ref_type=heads) - Arviointi
 
-- [Vaihe 6](https://gitlab.labranet.jamk.fi/AC7766/aida-projekti-syksy-2024-ryhma-1/-/tree/main/docs/Phase%206?ref_type=heads) - Käyttöönotto
+- [Vaihe 6](https://gitlab.labranet.jamk.fi/AC7766/aida-projekti-syksy-2024-ryhma-1/-/blob/main/docs/Phase%206/phase_6_results.md?ref_type=heads) - Käyttöönotto
 
 - [Loppuraportti](https://gitlab.labranet.jamk.fi/AC7766/aida-projekti-syksy-2024-ryhma-1/-/blob/main/docs/Phase%207%20Final%20report/final_report.md?ref_type=heads)
 
