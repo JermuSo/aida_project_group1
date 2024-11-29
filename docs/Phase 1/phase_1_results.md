@@ -1,4 +1,4 @@
-# Projektisuunnitelma
+# Projektisuunnitelma - Cars Data
 
 ## Tekijät: Jere Soininen, Pekka Pöyhönen, Sara Koskinen, Valtteri Pohto
 
@@ -7,7 +7,7 @@
  ![AI/DA kurssi](aida.png)
 
 ### Tiivistelmä:
-AI / DA -Projekti -kurssin työnä suunniteltiin ja toteutettiin AI / DA -moduulin aihealueeseen liittyvää data-analyysi projekti. Projektityössä on tarkoituksena analysoida dataa liittyen käytettyjen autojen myyntiä ja tuottaa asiakkaalle sen avulla lisäarvoa.
+AI / DA -Projekti -kurssin työnä suunniteltiin ja toteutettiin AI / DA -moduulin aihealueeseen liittyvää data-analyysi projekti. Projektityössä analysoidaan dataa liittyen käytettyjen autojen myyntiin. Tarkoituksena on tuottaa analyysin avulla asiakkaalle lisäarvoa sen liiketoimintaan.
 
 ## 1.	Tausta ja lähtökohdat  ![Tilanne](tilanne.png)
 
@@ -18,32 +18,62 @@ Projektissa autokauppaketju on antanut toimeksiannon data-analyysistä. Tavoitte
 
 Asiakas on Yhdysvalloissa toimiva autokauppaketju, joka keskittyy käytettyjen autojen vähittäismyyntiin Yhdysvaltojen markkinoilla. Asiakaskunta koostuu pääasiassa kotitalouksista, jotka etsivät kustannustehokkaita kuljetusvaihtoehtoja eri elämänvaiheisiin. Liiketoiminnassa korostuu asiakaslähtöinen lähestymistapa, jossa pyritään tarjoamaan kestäviä, edullisia ja laadukkaita ajoneuvoja jokaisen asiakkaan tarpeita vastaamaan.
 
-Yrityksen ydintoiminta keskittyy käytettyjen autojen hankintaan, varastointiin, markkinointiin ja jälleenmyyntiin. Käytettyjen autojen kysyntä on kasvanut Yhdysvalloissa, mikä kasvattaa markkinoiden kilpailua jatkuvasti. Yhtenä kilpailuvalttina yritys haluaa hyödyntää data-analytiikkaa liiketoimintansa kehittämisessä ja strategisten päätösten tukemisessa.
-Yritys kertoo, että keskeisinä liiketoimintahaasteina ovat varastonhallinta ja hintastrategia. Yrityksellä on suuret varastokustannukset ja tehokkaalla varaston kierrolla olisi positiivisia vaikutuksia liiketoiminnan kannattavuudelle. Nopeat myynnit ovat ensiarvoisen tärkeitä, jotta ajoneuvot eivät jää varastoon niiden arvon laskiessa. Käytettyjen autojen hinnat vaihtelevat suuresti riippuen esimerkiksi ajoneuvotyypin, iän, ajokilometrien, merkin ja lisäominaisuuksien mukaan. Oikean hinnan määritteleminen on haasteellista ja aikaa vievää, johon toivotaan ratkaisua data-analytiikan keinoin. 
+Yrityksen ydintoiminta keskittyy käytettyjen autojen: 
+- hankintaan, 
+- varastointiin, 
+- markkinointiin ja 
+- jälleenmyyntiin. 
+
+Käytettyjen autojen kysyntä on kasvanut Yhdysvalloissa, mikä kasvattaa markkinoiden kilpailua jatkuvasti. Yhtenä kilpailuvalttina yritys haluaa hyödyntää data-analytiikkaa liiketoimintansa kehittämisessä ja strategisten päätösten tukemisessa.   
+
+Yritys kertoo, että keskeisinä liiketoimintahaasteina ovat varastonhallinta ja hintastrategia. Yrityksellä on suuret varastokustannukset ja tehokkaalla varaston kierrolla olisi positiivisia vaikutuksia liiketoiminnan kannattavuudelle. Nopeat myynnit ovat ensiarvoisen tärkeitä, jotta ajoneuvot eivät jää varastoon niiden arvon laskiessa.   
+
+Käytettyjen autojen hinnat vaihtelevat suuresti riippuen esimerkiksi ajoneuvotyypin, iän, ajokilometrien, merkin ja lisäominaisuuksien mukaan. Oikean hinnan määritteleminen on haasteellista ja aikaa vievää, johon toivotaan ratkaisua data-analytiikan keinoin. 
 
 ## 2.	TAVOITTEET ![Tavoite](tavoite.png)
 
-### 2.1.	Data-analyysin ja mallintamisen tavoitteet
+Projektin tavoitteena on suunnitella ja toteuttaa data-analytiikkaprojekti, jolla vastataan asiakkaan liiketoiminnan tarpeisiin. Projektin tavoitteet täytyy suhteuttaa käytettävissä olevaan aikaan. Tavoitteet voidaan jakaa seuraaviin osa-alueisiin:
+
+### 2.1.    Liiketoiminnan tavoitteet
+
+Projektin liiketoiminnallisisa tavoitteissa keskitytään autokauppaketjun toiminnan tehostamiseen ja kilpailukyvyn parantamiseen. Tavoitteisiin kuuluvat:
+- Autojen myynnin nopeuttaminen:
+    - Kasvatetaan varaston kiertonopeutta ja lyhennetään myyntiaikoja, jotta varastokustannukset pienenevät.
+- Myyntihintojen optimointi:
+    - Dataan perustuvan hinnoittelun kehittäminen ja sen käyttäminen päivittäisessä päätöksenteossa.
+- Toiminnan kannattavuuden parantaminen:
+    - Tunnistetaan keskeisiä kannattavuuteen vaikuttavia tekijöitä ja tarjotaan ratkaisuja tehokkuuden parantamiseen.
+
+
+### 2.2.    Projektin etenemisen ja hallinnan tavoitteet
+
+- Projektissa käytetään CRISP-DM-prosessimallia, joka määrittää selkeät vaiheet työn etenemiselle
+- Laaditaan ja seurataan aikataulua, jotta projekti etenee maaliin suunnitellusti 7,5 viikon aikana
+- Otetaan asiakas mukaan prosessiin pitämällä joka toinen viikko palaveri/katselmus työn tilanteesta
+    - asiakas pääsee antamaan palautetta ja kehitysehdotuksia projektin aikana
+- Tunnistetaan projektin riskit
+
+### 2.3.	Data-analyysin ja mallintamisen tavoitteet
 
 -	Luoda selkeä kuva käytettävästä datasta
 -	Luoda integroitu, puhdistettu ja muotoiltu tietojoukko
 -	Luoda koneoppimismalli numeerisilla tuloksilla ja visualisoinnilla
 -	Arvioida ja tarkistaa mallin toimivuus
 
-### 2.2.	Mallintamisen tavoitteet
+### 2.4.	Mallintamisen tavoitteet
 
--	Luodaan regressiomalli autojen myyntihinnan ennustamiseen
--	Luodaan luokittelumalli luokittelemaan autot nopeasti kaupaksi meneviin ja ei nopeasti kaupattaviin
+-	Luodaan regressiomalli autojen myyntihinnan ennustamiseen 
+    - tavoite Mean Squared Error (MAE) ~ 5-10 % auton hinnasta
+    - tavoite R^2: >= 0.9
+-	Luodaan luokittelumalli luokittelemaan autot nopeasti kaupaksi meneviin ja ei nopeasti kaupattaviin 
+    - tavoite ROC-AUC: >= 0.9
 
-### 2.3.	Projektin tavoitteet
+Tavoitearvot perustuvat alustavaan analyysiin ja voivat tarkentua projektin edetessä.
 
-Projektin tavoitteena on tuottaa asiakkaalle Data-analyysin avulla lisää tietämystä heidän liiketoimintaansa liittyen, tehostaen autojen myyntiä. Projektissa luodaan asiakkaalle selkeä kuva siitä, mikä vaikuttaa autojen myyntihintaan ja siihen, kuinka nopeasti auto kaupataan. Data-analyysistä pyritään löytämään myös muita tekijöitä, jotka vaikuttavat autokauppaketjun kannattavuuteen. Projektin tavoitteet täytyy suhteuttaa käytettävissä olevaan aikaan.
+### 2.5.	Projektin päättyminen
 
 -	Data-analyysin ja mallintamisen vaiheiden jälkeen suunnitellaan ja toteutetaan käyttöönotto, seuranta ja huolto
--	Luodaan loppuraportti, kunnossapitodokumentaatio ja suunnitelma. 
-
-### 2.4.	Projektin päättyminen
-
+-	Luodaan loppuraportti, kunnossapitodokumentaatio ja -suunnitelma. 
 -	Projekti päätetään, kun loppuraportti ja mallintamisen aikana tuotettu malli on otettu käyttöön ja se on asiakkaan täysimääräisessä käytössä. Tuki- ja ylläpitopalvelusta sovittu erillisessä sopimuksessa.
 
 ## 3.	HAASTEET ![Haaste](haaste.png)
@@ -51,8 +81,9 @@ Projektin haasteeksi on todettu:
 
 -	tiukka aikataulu (7,5 viikkoa)
 -	suuri ja osittain vajavainen lähtödata
--	vaatimusmäärittelyn puutteellisuus
--	tuloksen/tulosten mittaamisen ja arvioimisen hankaluus?
+-   auton lisäominaisuuksien ottaminen huomioon datan esikäsittelyvaiheessa
+-   sopivien ennustemallien valinta rajallisessa ajassa
+-   teknisten resurssien puute (laskentateho)
 
 
 ## 4.   AIKATAULU ![Aikataulu](aikataulu.png)
@@ -93,30 +124,39 @@ Tiimi koostuu neljästä kolmannen vuoden tieto- ja viestintätekniikan opiskeli
 
 ### 6.1.    Roolit ja vastuut
 
+Datan esikäsittelyssä:
+-	Vastataan datan puhdistuksesta ja esikäsittelystä
+-	Tehdään alkuanalyysit mitkä ominaisuudet vaikuttavat eniten auton hintaan ja myyntiaikaan.
 
-Datan esikäsittelijät:
--	Vastaavat datan puhdistuksesta ja esikäsittelystä
--	Tekee alkuanalyysit mitkä ominaisuudet vaikuttavat eniten auton hintaan ja myyntiaikaan.
+Mallinnuksessa: 
+-	Kehitetään ennustemallit hintojen ja myyntiajan arvioimiseen sekä testataan eri algoritmeja esim. regressio- ja luokittelumenetelmiä.
 
-Mallinnuksesta vastaavat: 
--	Kehittävät ennustemallit hintojen ja myyntiajan arvioimiseen sekä testaa eri algoritmeja esim. regressio- ja luokittelumenetelmiä.
-
-Visualisoinnista vastaavat:
--	Vastaavat tulosten visualisoinnista selkeäksi ja informatiiviseksi asiakkaan kannalta. 
--	Toteutetaan graafeja esim. myyntinopeuksista, lisävarusteiden vaikutuksesta.
+Visualisoinnissa:
+-	Vastataan tulosten visualisoinnista selkeäksi ja informatiiviseksi asiakkaan kannalta. 
+-	Toteutetaan graafeja esim. myyntinopeuksista, hinnanjakaumista ajoneuvotyypeittäin ja lisävarusteiden vaikutuksesta myyntinopeuteen ja hintaan.
 
 Dokumentaatio ja projektin seuranta:
--	Dokumentoivat projektin tuloksia ja tekee suositukset asiakkaalle analyysitulosten perusteella. 
+-	Dokumentoidaan projektin tuloksia ja tehdään suositukset asiakkaalle analyysitulosten perusteella. 
 -	Seurataan, että projekti etenee suunnitellun aikataulun mukaisesti ja palautukset tulee tehtyä ajallaan
 
-Seuraavassa taulukossa on eriteltynä vastuualueet ja niiden kuvaukset sekä ketkä projektiryhmän jäsenet ovat pääasiallisesti vastuussa kustakin tehtävästä.
+Seuraavassa taulukossa on CRISP_DM-mallin vaiheet, niiden vaiheita koskevat kuvaukset sekä projektiryhmän jäsenet, jotka ovat pääasiallisesti vastuussa kunkin vaiheen toteutuksesta.
+
+| Vaihe    | Vaiheenkuvaus            | Vaiheen tuotos                                    | Päävastuussa                 |
+|----------|--------------------------|---------------------------------------------------|------------------------------|
+| Phase 1  | Business Understanding   | Projektisuunnitelma                               | Pekka, Sara                  |
+| Phase 2  | Data Understanding       | Data Description Report                           | Jere, Valtteri               |
+| Phase 3  | Data Preparation         | Integroitu, puhdistettu ja muotoiltu tietojoukko  | Jere, Pekka, Sara, Valtteri  |
+| Phase 4  | Modeling                 | Koneoppimismallit                                 | Jere, Pekka, Sara, Valtteri  |
+| Phase 5  | Evaluation               | Mallien arviointi                                 | Jere, Pekka, Sara, Valtteri  |
+| Phase 6  | Deployment               | Käyttönottosuunnitelma                            | Jere, Valtteri               |
+| Phase 7  | Final report             | Loppuraportti                                     | Pekka, Sara                  | 
 
 
 ### 6.2.    Tarvittavat työkalut ja teknologiat
 
 Projektin toteuttamiseen käytettävät teknologiat valitaan tiimin taitojen ja asiakkaan tarpeen mukaan. Pääpaino on aiemmilla kursseilla tutuiksi tulleissa työkaluissa, jotka ovat laajasti käytössä datatieteessä yleensä. 
 
-1. Ohjelmointi ja datan esikäsittely:
+1. Datan ymmärtäminen ja esikäsittely:
     - __Python__ on pääasiallisena ohjelmointikielenä datan käsittelyyn, analyysiin ja mallinnukseen.
     - __Pandas ja NumPy__ ovat data-analyysin ja -käsittelyn työkalut, joilla muokataan ja esikäsitellään suurta määrää dataa tehokkaasti.
 
@@ -126,6 +166,7 @@ Projektin toteuttamiseen käytettävät teknologiat valitaan tiimin taitojen ja 
 
 3.	Visualisointi ja raportointi:
     - __Matplotlib ja Seaborn__ -kirjastoja käytetään visualisointien luomiseen ja analysointitulosten selkeyttämiseksi. 
+    - __Markdown__:ia käytetään raportoinnin työkaluna
 
 4.	Projektinhallinta ja dokumentointi:
     - __GitLab__ projektinhallintaan ja tehtävien seuraamiseen.
