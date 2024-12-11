@@ -68,12 +68,39 @@ Koska käytettyjen autojen ominaisuudet ja hinnat voivat muuttua ajan myötä, t
 3. Operatiivinen johto
 * Voivat tehdä ennusteita ja hakea tietoa ennustettavista hinnoista ja päätyä tarkempiin ja kannattavampiin suunnitelmiin.
 
-## 3. Loppuraporti
+## 3. Loppuraportti
 
-Projektiryhmä dokumentoi yhteenvedon projektista, joka voi sisältää lopullisen esityksen tiedonlouhinnan tuloksista.
+Yhteenveto projektista, joka sisältää lopullisen esityksen tiedonlouhinnan tuloksista.
 
+*TÄNNE LOPPURAPORTTI*
 
-## 4. Projektin loppusanat?
+## 4. Projektin loppusanat
 
-Toteuta projektin retrospektiivi, jossa arvioidaan, mikä sujui hyvin, mitä olisi voinut tehdä paremmin ja miten toimintaa voidaan parantaa tulevaisuudessa.
+_Projektin retrospektiivi, jossa arvioidaan, mikä sujui hyvin, mitä olisi voinut tehdä paremmin ja miten toimintaa voidaan parantaa tulevaisuudessa._
+
+![Suunnitelma](suunni.jpg)
+
+#### Alkuvaihe
+
+Projektin alussa ryhmän jäsenet tulivat hyvin toimeen keskenään, mikä loi vahvan pohjan yhteistyölle. Tavoite oli alusta asti selkeä ja yhteinen, minkä ansiosta työ käynnistyi nopeasti ja tehokkaasti. Työt jaettiin ryhmässä tasapuolisesti, ja kommunikaatio sujui hyvin. Näillä saatiin hommat käyntiin ja motivoiva alku projektille.
+
+#### Keskivaihe
+
+Projektin keskivaiheessa kohdattiin haasteita. Vaiheen 3 datan siivoaminen osoittautui odotettua suuremmaksi tehtäväksi, joka vaati sekä paljon aikaa että tietokoneen laskentatehoa. Ryhmää koettelivat myös jäsenten sairastumiset ja muut velvollisuudet, jotka hidastivat vaiheiden 1–3 valmistumista. Näistä esteistä huolimatta ryhmä onnistui hyvällä tsempillä, yhteistyöllä ja sinnikkyydellä saamaan ensimmäisen puoliskon 1-3 vaiheet kunnialla valmiiksi.
+
+#### Loppuvaihe
+
+Projektin loppuvaiheessa kohtasimme lisää sairastumisia, mikä hidasti mallintamisen tekemistä, tulosten analysointia ja projektin lopullista valmistumista. Vaikka loppurutistus vei odotettua kauemmin, projekti saatiin lopulta valmiiksi. Loppuvaihe osoitti, miten tärkeää on varautua yllättäviin haasteisiin ja luoda tilaa joustavuudelle aikatauluissa.
+
+*Parannusehdotukset tulevaisuuteen*
+
+1. Riskienhallinta: Jatkossa voisimme laatia kattavamman riskienhallintasuunnitelman, joka huomioi esimerkiksi sairastumiset ja tekniset haasteet.
+
+2. Resurssien optimointi: Datan siivoamiseen ja raskaisiin laskentatehtäviin voitaisiin varata paremmin resursseja, kuten tehokkaampia tietokoneita tai ulkoisia palveluita.
+
+3. Aikataulun joustavuus: Suunnittelemme tulevaisuudessa aikataulut niin, että ne sallivat paremmin yllättäviä viivästyksiä.
+
+4. Kommunikaation jatkokehittäminen: Vaikka kommunikaatio toimi hyvin, voitaisiin käyttää jotain mobiilia viestintäsovellusta nopeampaa kommunikaatiota varten. Se auttaisi hallitsemaan edistymistä ja reagoimaan kiireiseen ja hajautettuun työtilanteeseen.
+
+Tämä projekti opetti meille paljon tiimityöstä, haasteiden ylittämisestä ja tehokkaasta projektinhallinnasta. Olemme valmiita soveltamaan tämän projektin oppeja tulevissa hankkeissa.
 
